@@ -12,6 +12,7 @@
 		34E7C4DA1F01DED900EE43B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E7C4D81F01DED900EE43B4 /* Main.storyboard */; };
 		34E7C4DC1F01DED900EE43B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E7C4DB1F01DED900EE43B4 /* Assets.xcassets */; };
 		34E7C4DF1F01DED900EE43B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E7C4DD1F01DED900EE43B4 /* LaunchScreen.storyboard */; };
+		34E7C4E71F02DDF200EE43B4 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7C4E61F02DDF200EE43B4 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		34E7C4DB1F01DED900EE43B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E7C4DE1F01DED900EE43B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34E7C4E01F01DED900EE43B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E7C4E61F02DDF200EE43B4 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		34E7C4C81F01DED900EE43B4 = {
 			isa = PBXGroup;
 			children = (
+				34E7C4E61F02DDF200EE43B4 /* DefinitionViewController.swift */,
 				34E7C4D31F01DED900EE43B4 /* Emoji Dictionary */,
 				34E7C4D21F01DED900EE43B4 /* Products */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34E7C4D71F01DED900EE43B4 /* ViewController.swift in Sources */,
+				34E7C4E71F02DDF200EE43B4 /* DefinitionViewController.swift in Sources */,
 				34E7C4D51F01DED900EE43B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
